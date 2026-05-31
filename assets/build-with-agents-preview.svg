@@ -1,0 +1,42 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Build With Agents preview</title>
+  <desc id="desc">A visual overview of the 7-day Build With Agents challenge.</desc>
+  <rect width="1280" height="720" fill="#FFF8ED"/>
+  <path d="M0 96H1280M0 192H1280M0 288H1280M0 384H1280M0 480H1280M0 576H1280M128 0V720M256 0V720M384 0V720M512 0V720M640 0V720M768 0V720M896 0V720M1024 0V720M1152 0V720" stroke="#241C15" stroke-opacity="0.08" stroke-width="2"/>
+  <rect x="72" y="72" width="1136" height="576" rx="20" fill="#FFFDF8" stroke="#241C15" stroke-width="4"/>
+  <rect x="72" y="72" width="1136" height="82" rx="20" fill="#FF6B1A" stroke="#241C15" stroke-width="4"/>
+  <path d="M72 132H1208" stroke="#241C15" stroke-width="4"/>
+  <circle cx="116" cy="113" r="12" fill="#FFFDF8" stroke="#241C15" stroke-width="4"/>
+  <circle cx="158" cy="113" r="12" fill="#FFFDF8" stroke="#241C15" stroke-width="4"/>
+  <circle cx="200" cy="113" r="12" fill="#FFFDF8" stroke="#241C15" stroke-width="4"/>
+  <text x="100" y="245" fill="#241C15" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="900">Build With Agents</text>
+  <text x="104" y="305" fill="#4D4036" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">7 days. 7 builds. Zero fluff.</text>
+  <text x="104" y="358" fill="#4D4036" font-family="Arial, Helvetica, sans-serif" font-size="24">A hands-on challenge for building real agentic AI automations with Claude Code.</text>
+  <g transform="translate(104 430)">
+    <rect width="152" height="70" rx="10" fill="#241C15"/>
+    <text x="76" y="45" text-anchor="middle" fill="#FFF8ED" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Workflow</text>
+  </g>
+  <g transform="translate(280 430)">
+    <rect width="152" height="70" rx="10" fill="#FFD447" stroke="#241C15" stroke-width="4"/>
+    <text x="76" y="45" text-anchor="middle" fill="#241C15" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">MCP</text>
+  </g>
+  <g transform="translate(456 430)">
+    <rect width="152" height="70" rx="10" fill="#7BDFF2" stroke="#241C15" stroke-width="4"/>
+    <text x="76" y="45" text-anchor="middle" fill="#241C15" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Skills</text>
+  </g>
+  <g transform="translate(632 430)">
+    <rect width="152" height="70" rx="10" fill="#B8F28B" stroke="#241C15" stroke-width="4"/>
+    <text x="76" y="45" text-anchor="middle" fill="#241C15" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Deploy</text>
+  </g>
+  <g transform="translate(808 430)">
+    <rect width="152" height="70" rx="10" fill="#FFB4A2" stroke="#241C15" stroke-width="4"/>
+    <text x="76" y="45" text-anchor="middle" fill="#241C15" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Loops</text>
+  </g>
+  <g transform="translate(984 430)">
+    <rect width="152" height="70" rx="10" fill="#FFFDF8" stroke="#241C15" stroke-width="4"/>
+    <text x="76" y="45" text-anchor="middle" fill="#241C15" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">EA</text>
+  </g>
+  <rect x="104" y="552" width="310" height="56" rx="8" fill="#FF6B1A" stroke="#241C15" stroke-width="4"/>
+  <text x="259" y="589" text-anchor="middle" fill="#241C15" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900">Start the challenge</text>
+  <text x="444" y="587" fill="#4D4036" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">buildwithagents.vercel.app</text>
+</svg>
