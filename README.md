@@ -2,9 +2,20 @@
 
 > A free 7-day hands-on challenge to build real agentic AI automations with Claude Code.
 
-[Start the challenge](https://buildwithagents.vercel.app/) · [Course walkthrough](docs/COURSE-WALKTHROUGH.md) · [Learning path](docs/LEARNING-PATH.md) · [Usage rules](COPYRIGHT.md)
+![Free course](https://img.shields.io/badge/free-course-ff6b1a?style=flat-square)
+![7 day challenge](https://img.shields.io/badge/7--day-challenge-111111?style=flat-square)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-ready-ff6b1a?style=flat-square)
+![All rights reserved](https://img.shields.io/badge/license-all%20rights%20reserved-111111?style=flat-square)
+
+[Start the challenge](https://buildwithagents.vercel.app/) · [Course walkthrough](docs/COURSE-WALKTHROUGH.md) · [Learning path](docs/LEARNING-PATH.md) · [FAQ](docs/FAQ.md) · [Usage rules](COPYRIGHT.md)
 
 ![Build With Agents homepage screenshot](assets/site-home-desktop.png)
+
+## What you get in 10 seconds
+
+- A practical 7-day path for building real agentic AI automations with Claude Code.
+- A clear map of workflows, MCP tools, skills, deployment, loops, and personal assistant context.
+- A free course site with prompts, checklists, resources, and a capstone.
 
 ## What this repo is
 
@@ -31,11 +42,23 @@ Star this repo if you want to keep the challenge handy, share it with your team,
 
 These screenshots are captured from the actual Build With Agents site.
 
-| Homepage | Day 1 page |
-| --- | --- |
-| ![Build With Agents homepage](assets/site-home-desktop.png) | ![Build With Agents Day 1 page](assets/site-day1-desktop.png) |
+### Homepage
 
-Mobile preview:
+![Build With Agents homepage](assets/site-home-desktop.png)
+
+### Day 1 page
+
+![Build With Agents Day 1 page](assets/site-day1-desktop.png)
+
+### Resources page
+
+![Build With Agents resources page](assets/site-resources-desktop.png)
+
+### Capstone page
+
+![Build With Agents capstone page](assets/site-capstone-desktop.png)
+
+### Mobile preview
 
 <p align="center">
   <img src="assets/site-home-mobile.png" alt="Build With Agents mobile homepage" width="320">
@@ -122,7 +145,7 @@ It is not for:
 - AI news without implementation.
 - Blind prompt copying.
 - Fully hands-off automation with no review gates.
-- People looking for a cloned course repo to reuse commercially.
+- People looking for open-source course material to copy, repackage, or resell.
 
 ## What is inside this public repo
 
@@ -149,7 +172,20 @@ This repo intentionally does not contain:
 - Walkthrough: [docs/COURSE-WALKTHROUGH.md](docs/COURSE-WALKTHROUGH.md)
 - Learning path: [docs/LEARNING-PATH.md](docs/LEARNING-PATH.md)
 - Share guide: [docs/SHARE.md](docs/SHARE.md)
+- FAQ: [docs/FAQ.md](docs/FAQ.md)
 - Copyright: [COPYRIGHT.md](COPYRIGHT.md)
+
+## Repository map
+
+| Path | Purpose |
+| --- | --- |
+| `README.md` | GitHub landing page and main course overview |
+| `docs/COURSE-WALKTHROUGH.md` | Full 7-day breakdown with outcomes and success criteria |
+| `docs/LEARNING-PATH.md` | Suggested paths for beginners, operators, analysts, founders, PMs, and developers |
+| `docs/SHARE.md` | Copy and guidance for sharing the course |
+| `docs/FAQ.md` | Common questions about the course and this public repo |
+| `COPYRIGHT.md` | All-rights-reserved usage rules |
+| `assets/` | Real screenshots captured from the official live site |
 
 ## About the creator
 
@@ -161,33 +197,15 @@ Build With Agents is created by Vishal Jaiswal, an AI and analytics leader with 
 
 ## FAQ
 
-### Is the course free?
+Short version:
 
-Yes. The 7-day course, prompts, capstone, and downloadable files are free on the official site.
+- The course is free.
+- The full course experience lives on the official site.
+- This repo is the public GitHub landing page and walkthrough.
+- This is not an open-source course repo.
+- Commercial use, copying, redistribution, resale, and republishing are not allowed without written permission.
 
-### Is this the full course source?
-
-No. This is the public GitHub landing repo and walkthrough. The course experience lives on the official site.
-
-### Why keep this repo public?
-
-GitHub is where builders discover useful projects. This repo gives the course a public face, a star target, and a shareable technical summary.
-
-### Can I copy, resell, or republish the material?
-
-No. The material is copyrighted by Vishal Jaiswal. Commercial use, copying, redistribution, resale, and republishing are not allowed without written permission.
-
-### Why is there no open-source license?
-
-Because this is not an open-source course repo. All rights are reserved.
-
-### Do I need to know how to code?
-
-You need to be comfortable using VS Code and following instructions. The course is designed so you do not write code blind.
-
-### What tools are used?
-
-Claude Code, VS Code, Firecrawl MCP, Trigger.dev, and practical workflow files. The exact tools vary by day.
+Read the full FAQ in [docs/FAQ.md](docs/FAQ.md).
 
 ## Copyright
 
