@@ -2,15 +2,48 @@
 
 > A free 7-day hands-on challenge to build real agentic AI automations with Claude Code.
 
-[Start the challenge](https://buildwithagents.vercel.app/) · [View the 7-day map](https://buildwithagents.vercel.app/#course-map) · [Meet Vishal](https://jaiswal-vishal.vercel.app/)
+[Start the challenge](https://buildwithagents.vercel.app/) · [Course walkthrough](docs/COURSE-WALKTHROUGH.md) · [Learning path](docs/LEARNING-PATH.md) · [Usage rules](COPYRIGHT.md)
 
-![Build With Agents preview](assets/build-with-agents-preview.svg)
+![Build With Agents homepage screenshot](assets/site-home-desktop.png)
 
-## Why this exists
+## What this repo is
+
+This is the public GitHub landing repo for [Build With Agents](https://buildwithagents.vercel.app/).
+
+The goal is simple:
+
+- Help builders discover the course on GitHub.
+- Give people a clear walkthrough before they start.
+- Earn stars from people who want practical agentic AI examples.
+- Send learners to the official site for the full course experience.
+
+This repo is not the private course source repo. It does not contain the website code, private course files, downloadable resource bundles, or internal deployment setup.
+
+## Start here
+
+The full course lives at:
+
+[https://buildwithagents.vercel.app/](https://buildwithagents.vercel.app/)
+
+Star this repo if you want to keep the challenge handy, share it with your team, or follow the build-in-public progress around practical AI agents.
+
+## Screenshots from the live site
+
+These screenshots are captured from the actual Build With Agents site.
+
+| Homepage | Day 1 page |
+| --- | --- |
+| ![Build With Agents homepage](assets/site-home-desktop.png) | ![Build With Agents Day 1 page](assets/site-day1-desktop.png) |
+
+Mobile preview:
+
+![Build With Agents mobile homepage](assets/site-home-mobile.png)
+
+## Why Build With Agents exists
 
 Most AI agent content stops at demos. Build With Agents is for people who want working systems.
 
-In 7 days, you go from your first Claude Code workflow to a deployed automation, a screenshot improvement loop, a scheduled agent, and a personal executive assistant folder you can keep extending.
+In 7 days, you move from your first Claude Code workflow to deployed automation, reusable skills, screenshot-based frontend iteration, scheduled routines, and a personal executive assistant workspace.
 
 The course is practical by design:
 
@@ -19,15 +52,8 @@ The course is practical by design:
 - Copy-ready prompts
 - Concrete checklists
 - Claude Code, MCP, Trigger.dev, workflows, skills, and scheduled routines
-- No passive watching
-
-## Start here
-
-The full course lives on the site:
-
-[https://buildwithagents.vercel.app/](https://buildwithagents.vercel.app/)
-
-This public repo is the GitHub landing page for the project. Star it if you want to follow the course, share it with your team, or keep a bookmark for agentic AI building patterns.
+- Real failure cases and recovery patterns
+- A capstone that turns the week into a production-minded system
 
 ## Star this repo if
 
@@ -35,69 +61,93 @@ This public repo is the GitHub landing page for the project. Star it if you want
 - You are learning Claude Code and want a structured path.
 - You care about workflows, tools, MCP servers, and production habits.
 - You want a free challenge you can send to a friend or team.
-- You believe agentic AI should be built, tested, and documented in public.
+- You want more practical, build-first AI education on GitHub.
+- You believe agentic AI should be understandable, inspectable, and documented.
 
-## The 7-day walkthrough
+## The 7-day challenge
 
-| Day | Build | What you learn |
+| Day | Build | Outcome |
 | --- | --- | --- |
-| 1 | Newsletter automation | Workflows, `CLAUDE.md`, Plan Mode, review gates |
-| 2 | Job listing scraper | MCP servers, Firecrawl, tool selection, structured extraction |
-| 3 | Reusable skill | Skill design, references, guardrails, repeatable prompts |
-| 4 | Deployed automation | Trigger.dev, env vars, logs, cloud execution |
-| 5 | Landing page loop | Frontend build loop, screenshots, visual iteration |
-| 6 | Scheduled agent | Autonomous routines, monitoring loops, improvement logs |
-| 7 | Executive assistant | Context files, operating rules, personal AI system design |
+| 1 | Newsletter automation | A workflow that researches, drafts, reviews, and sends |
+| 2 | Job listing scraper | A workflow that connects Claude Code to live web data through Firecrawl MCP |
+| 3 | Reusable skill | A custom skill with references, guardrails, and iteration notes |
+| 4 | Deployed automation | A Trigger.dev task that can run without your laptop |
+| 5 | Landing page loop | A frontend improvement loop using screenshots as feedback |
+| 6 | Scheduled agent | A scheduled routine plus a monitoring loop |
+| 7 | Executive assistant | A personal EA folder with context files, rules, and skills |
 
-By the end, you should have a working agentic AI operating system instead of a folder full of experiments.
+See the expanded breakdown in [docs/COURSE-WALKTHROUGH.md](docs/COURSE-WALKTHROUGH.md).
 
-## What you will build
+## What you will understand by the end
 
-The challenge walks through a complete progression:
+Build With Agents is not just a list of prompts. It teaches a system for making agents useful:
 
-1. A newsletter workflow that researches, drafts, reviews, and sends.
-2. A scraping workflow that connects Claude Code to live web data through MCP.
-3. A custom skill that turns repeated work into a reusable agent capability.
-4. A Trigger.dev task that runs without your laptop.
-5. A landing page improvement loop that uses screenshots as feedback.
-6. A scheduled automation plus monitoring loop.
-7. A personal executive assistant workspace with context, rules, and skills.
+- How to structure `CLAUDE.md` as a project brain.
+- How to put repeatable processes into workflow files.
+- How to use Plan Mode before the agent starts building.
+- How to connect tools through MCP.
+- How to turn repeated tasks into reusable skills.
+- How to deploy automations safely.
+- How to add review gates for anything that sends, publishes, or deletes.
+- How to debug when tools return empty, stale, or malformed results.
+- How to build an executive assistant folder that improves over time.
 
-Each day has a clear success checklist, common mistakes, and an extension prompt if you want to go deeper.
-
-## Who this is for
-
-Build With Agents is for:
-
-- Operators, analysts, founders, and builders who want working AI systems.
-- People willing to open VS Code and run real workflows.
-- Teams that want practical automation patterns instead of AI theory.
-- Builders who want to understand the system well enough to debug it.
-
-It is not for:
-
-- Passive video watching.
-- AI news without implementation.
-- Copying prompts without understanding what they do.
-- Fully hands-off automation with no review gates or safety rules.
-
-## The core mental model
+## The core mental model: WAT
 
 The course is built around WAT:
 
 | Layer | Meaning | Role |
 | --- | --- | --- |
 | Workflows | Plain-English process files | Tell the agent what to do and in what order |
-| Agent | Claude Code | Reads context, chooses tools, executes steps, fixes build-time issues |
-| Tools | APIs, MCP servers, scripts, integrations | Do the real work outside the chat window |
+| Agent | Claude Code | Reads context, chooses tools, executes steps, and fixes build-time issues |
+| Tools | APIs, MCP servers, scripts, and integrations | Do the real work outside the chat window |
 
-This model keeps agentic systems understandable. If you can read the workflow, inspect the tools, and explain the handoffs, you can improve the automation instead of just hoping it works.
+This model keeps agentic systems inspectable. If you can read the workflow, inspect the tools, and explain the handoffs, you can improve the automation instead of just hoping it works.
 
-## Course site
+## Who this is for
 
-The complete challenge, downloadable resources, prerequisites, capstone, and live cohort details are here:
+Build With Agents is for:
 
-[Launch Build With Agents](https://buildwithagents.vercel.app/)
+- Operators who want recurring work automated.
+- Analysts who want Claude Code to become a serious workbench.
+- Founders who need useful AI systems without waiting on a platform team.
+- Builders who want to understand MCP, tools, workflows, and deployment.
+- Teams looking for a practical 7-day AI challenge.
+
+It is not for:
+
+- Passive video watching.
+- AI news without implementation.
+- Blind prompt copying.
+- Fully hands-off automation with no review gates.
+- People looking for a cloned course repo to reuse commercially.
+
+## What is inside this public repo
+
+This repo contains:
+
+- A GitHub-first overview of the course.
+- Real screenshots from the official site.
+- An expanded course walkthrough.
+- A learning path for different builder profiles.
+- Sharing guidance for people who want to recommend the course.
+- Copyright and usage boundaries.
+
+This repo intentionally does not contain:
+
+- The private website source.
+- Full lesson source files.
+- Downloadable course bundles.
+- Internal deployment configuration.
+- Any open-source license.
+
+## Important links
+
+- Course site: [buildwithagents.vercel.app](https://buildwithagents.vercel.app/)
+- Walkthrough: [docs/COURSE-WALKTHROUGH.md](docs/COURSE-WALKTHROUGH.md)
+- Learning path: [docs/LEARNING-PATH.md](docs/LEARNING-PATH.md)
+- Share guide: [docs/SHARE.md](docs/SHARE.md)
+- Copyright: [COPYRIGHT.md](COPYRIGHT.md)
 
 ## About the creator
 
@@ -111,15 +161,23 @@ Build With Agents is created by Vishal Jaiswal, an AI and analytics leader with 
 
 ### Is the course free?
 
-Yes. The 7-day course, prompts, capstone, and downloadable files are free on the website.
+Yes. The 7-day course, prompts, capstone, and downloadable files are free on the official site.
 
-### Is this repo the full course source?
+### Is this the full course source?
 
-No. This repo is the public GitHub landing page and walkthrough. The course experience lives on the site.
+No. This is the public GitHub landing repo and walkthrough. The course experience lives on the official site.
 
-### Can I copy or resell the material?
+### Why keep this repo public?
+
+GitHub is where builders discover useful projects. This repo gives the course a public face, a star target, and a shareable technical summary.
+
+### Can I copy, resell, or republish the material?
 
 No. The material is copyrighted by Vishal Jaiswal. Commercial use, copying, redistribution, resale, and republishing are not allowed without written permission.
+
+### Why is there no open-source license?
+
+Because this is not an open-source course repo. All rights are reserved.
 
 ### Do I need to know how to code?
 
