@@ -37,7 +37,9 @@ These screenshots are captured from the actual Build With Agents site.
 
 Mobile preview:
 
-![Build With Agents mobile homepage](assets/site-home-mobile.png)
+<p align="center">
+  <img src="assets/site-home-mobile.png" alt="Build With Agents mobile homepage" width="320">
+</p>
 
 ## Why Build With Agents exists
 
